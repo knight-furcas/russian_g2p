@@ -1,6 +1,6 @@
-from russian_g2p.Preprocessor import Preprocessor
-from russian_g2p.Accentor import Accentor
-from russian_g2p.Grapheme2Phoneme import Grapheme2Phoneme
+from Preprocessor import Preprocessor
+from Accentor import Accentor
+from Grapheme2Phoneme import Grapheme2Phoneme
 
 
 class Transcription:

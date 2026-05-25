@@ -3,7 +3,7 @@ import os
 import re
 import warnings
 
-from russian_g2p.RulesForGraphemes import RulesForGraphemes
+from russian_g2p.russian_g2p.RulesForGraphemes import RulesForGraphemes
 
 
 class Grapheme2Phoneme(RulesForGraphemes):

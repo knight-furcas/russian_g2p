@@ -8,7 +8,7 @@ import urllib.request
 import urllib.parse
 import lxml.html
 import itertools
-import dawg
+import dawg_python as dawg
 import logging
 
 

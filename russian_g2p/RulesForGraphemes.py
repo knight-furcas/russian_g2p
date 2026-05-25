@@ -1,9 +1,9 @@
 class RulesForGraphemes:
     def __init__(self, users_mode: str='Modern'):
         if users_mode == 'Classic':
-            from russian_g2p.modes.Classic import ClassicMode as UsersMode
+            from russian_g2p.russian_g2p.modes.Classic import ClassicMode as UsersMode
         else:
-            from russian_g2p.modes.Modern import ModernMode as UsersMode
+            from russian_g2p.russian_g2p.modes.Modern import ModernMode as UsersMode
 
         self.mode = UsersMode()
 
