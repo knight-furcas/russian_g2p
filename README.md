@@ -18,7 +18,7 @@ To install this project on your local machine, you should run the following comm
 
 ```
 git init
-git clone https://github.com/nsu-ai/russian_g2p.git\
+git clone https://github.com/knight-furcas/russian_g2p
 cd russian_g2p
 ```
 
